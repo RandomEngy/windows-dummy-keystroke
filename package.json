@@ -1,0 +1,17 @@
+{
+  "name": "windows-dummy-keystroke",
+  "version": "1.0.0",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "configure": "node-gyp configure",
+    "build": "node-gyp build"
+  },
+  "devDependencies": {
+    "node-gyp": "^9.3.0"
+  },
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "nan": "^2.17.0"
+  }
+}
